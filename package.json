@@ -1,7 +1,7 @@
 {
   "name": "autoupdate",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "exampls application for auto-updates",
   "main": "./app/main.js",
   "scripts": {
     "start" : "electron .",
