@@ -1,3 +1,4 @@
 node_modules
 .vscode
 electron-builder.yml
+dist
