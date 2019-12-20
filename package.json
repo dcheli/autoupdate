@@ -1,6 +1,6 @@
 {
   "name": "autoupdate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "exampls application for auto-updates",
   "main": "./app/main.js",
   "scripts": {
