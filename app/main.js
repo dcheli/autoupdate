@@ -35,14 +35,17 @@ app.on('activate', function () {
 });
 
 ipcMain.on('app_version', (event) => {
+  console.log("Calling app_version, version is ", app.getVersion());
   event.sender.send('app_version', { version: app.getVersion() });
 });
 
 autoUpdater.on('update-available', () => {
+  console.log("Main, an update is available")
   mainWindow.webContents.send('update_available');
 });
 
 autoUpdater.on('update-downloaded', () => {
+  console.log("Main, and update is being downloaded")
   mainWindow.webContents.send('update_downloaded');
 });
 
