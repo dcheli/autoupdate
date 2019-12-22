@@ -1,10 +1,10 @@
 {
   "name": "autoupdate",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "exampls application for auto-updates",
   "main": "./app/main.js",
   "scripts": {
-    "start" : "electron .",
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "electron-builder build --win --publish never",
     "deploy": "electron-builder build --win --publish always"
@@ -19,7 +19,7 @@
     "electron-updater": "^4.2.0"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/dcheli/autoupdate.git"
+    "type": "git",
+    "url": "https://github.com/dcheli/autoupdate.git"
   }
 }
